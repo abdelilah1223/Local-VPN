@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LocalVPN</string>
+    <string name="start_vpn">ابدأ VPN</string>
+    <string name="start_vpn_description">تشغيل مانع الإعلانات</string>
+    <string name="stop_vpn">إيقاف VPN</string>
+    <string name="stop_vpn_description">إيقاف مانع الإعلانات</string>
+    <string name="manage_list">قائمة الحظر</string>
+    <string name="manage_blocklist">إدارة قائمة الحظر</string>
+    <string name="vpn_active">الخدمة تعمل</string>
+    <string name="vpn_off">الخدمة متوقفة</string>
+    <string name="start">ابدأ</string>
+    <string name="stop">توقف</string>
+    <string name="follow_me">تابعني</string>
+    <string name="language_toggle">EN</string>
+    <string name="open_app">فتح التطبيق</string>
+    <string name="settings">الإعدادات</string>
+</resources>

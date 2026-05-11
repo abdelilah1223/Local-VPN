@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="start_vpn"
+        android:enabled="true"
+        android:icon="@drawable/ic_play_arrow"
+        android:shortcutShortLabel="@string/start_vpn"
+        android:shortcutLongLabel="@string/start_vpn_description">
+        <intent
+            android:action="com.elbaroudi.localvpn.ACTION_START"
+            android:targetPackage="com.elbaroudi.localvpn"
+            android:targetClass="com.elbaroudi.localvpn.MainActivity" />
+    </shortcut>
+    
+    <shortcut
+        android:shortcutId="stop_vpn"
+        android:enabled="true"
+        android:icon="@drawable/ic_stop"
+        android:shortcutShortLabel="@string/stop_vpn"
+        android:shortcutLongLabel="@string/stop_vpn_description">
+        <intent
+            android:action="com.elbaroudi.localvpn.ACTION_STOP"
+            android:targetPackage="com.elbaroudi.localvpn"
+            android:targetClass="com.elbaroudi.localvpn.MainActivity" />
+    </shortcut>
+    
+    <shortcut
+        android:shortcutId="manage"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings"
+        android:shortcutShortLabel="@string/manage_list"
+        android:shortcutLongLabel="@string/manage_blocklist">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.elbaroudi.localvpn"
+            android:targetClass="com.elbaroudi.localvpn.MainActivity">
+            <extra android:name="route" android:value="blocklist" />
+        </intent>
+    </shortcut>
+</shortcuts>
