@@ -238,7 +238,6 @@ Contributions are welcome! Areas for contribution:
 
 ## License
 
-[Your License Here]
 
 ## Contact & Support
 
